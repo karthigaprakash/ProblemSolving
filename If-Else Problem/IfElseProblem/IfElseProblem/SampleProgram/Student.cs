@@ -1,29 +1,33 @@
-﻿namespace ProblemSolving.SampleProgram
+﻿namespace ProblemSolving.SampleProgram;
+
+internal class Student
 {
-    internal class Student
+    public static string GetResult(double percentage)
     {
-        public static int Result(int num1 ,string operation)
+        if (percentage >= 60)
         {
-            if(operation == "+")
-            {
-                return num1 ;
-            }
-            else if(operation == "-")
-            {
-                return num1;
-            }
-            else if (operation == "*")
-            {
-                return num1 ;
-            }
-            else if (operation =="/")
-            {
-                return num1;
-            }
+            if (percentage >= 90)
+                return "First Division - Excellent";
+            else if (percentage >= 75)
+                return "First Division - Good";
             else
-            {
-                return 0;
-            }
+                return "First Division - Average";
+        }
+        else if (percentage >= 45)
+        {
+            if (percentage >= 75)
+                return "Second Division - Good";
+            else
+                return "Second Division - Average";
+        }
+        else if (percentage >= 33)
+        {
+            return "Third Division";
+        }
+        else
+        {
+            return "Fail";
         }
     }
+
 }

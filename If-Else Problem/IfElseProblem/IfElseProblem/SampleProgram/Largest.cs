@@ -1,23 +1,20 @@
-﻿namespace ProblemSolving.SampleProgram
+﻿namespace ProblemSolving.SampleProgram;
+
+internal class Largest
 {
-    internal class Largest
+    public static string ThreeValue(int a, int b, int c)
     {
-        public static string ThreeValue(int a, int b, int c)
+        if (a >= b && a >= c)
         {
-
-
-            if (a >= b && a >= c)
-            {
-                return "a";
-            }
-            else if (b >= a && b >= c)
-            {
-                return "b";
-            }
-            else
-            {
-                return "c";
-            }
+            return "a";
+        }
+        else if (b >= a && b >= c)
+        {
+            return "b";
+        }
+        else
+        {
+            return "c";
         }
     }
 }
