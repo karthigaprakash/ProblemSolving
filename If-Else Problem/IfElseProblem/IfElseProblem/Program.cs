@@ -1,4 +1,6 @@
-﻿using ProblemSolving.SampleProgram;
+﻿using Problem_Solving.Loop;
+using ProblemSolving.SampleProgram;
+using System.Collections.Generic;
 using System.Diagnostics.Metrics;
 
 namespace ProblemSolving.SampleProgram;
@@ -160,6 +162,87 @@ public class Program
         //Console.Write("Enter amount in INR: ");
         //var inr = Convert.ToDouble(Console.ReadLine());
         //Console.WriteLine($"{Currency.Converter(option, inr)}");
+
+
+        //Loop
+        //1.Sum of First N Numbers
+
+        /*Console.Write("Enter a number: ");
+        var n = Convert.ToInt32(Console.ReadLine());
+        var result = Integer.CalculateSum(n);
+        Console.WriteLine("Sum of numbers from 1 to " + n + " is: " + result);
+        */
+
+        //2.Factorial of a Number
+
+        /*Console.Write("Enter a number: ");
+       var n = Convert.ToInt32(Console.ReadLine());
+       var result = Factorial.FactorialLoop(n);
+       Console.WriteLine(n + "! = " + result);
+       */
+
+        //3. Multiplication Table
+
+        /*Console.Write("Enter a number: ");
+        var n = Convert.ToInt32(Console.ReadLine());
+        Multiplication.Table(n);
+        */
+
+        //4. Count Even and Odd Numbers
+
+        /*Console.Write("Enter a number: ");
+        var n = Convert.ToInt32(Console.ReadLine());
+        var result = EO.Checker(n); 
+        Console.WriteLine("The number is " + result);
+        */
+
+        //5. Reverse a String
+
+        /*Console.Write("Enter a string: ");
+        var str = Console.ReadLine();
+        Console.WriteLine($"{Reverse.Letter(str)}");
+        */
+
+        //6. Prime Numbers up to N
+
+        /*Console.Write("Enter n: ");
+       var n = Convert.ToInt32(Console.ReadLine());
+       Prime.ShowPrimes(n);
+       */
+
+        //7.Fibonacci Series(First N Terms)
+
+        /*
+        Console.Write("Enter the number of Fibonacci terms: ");
+        var n = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"First {n} Fibonacci numbers:");
+        Fibonacci.Series(n);
+        */
+
+        //8. Sum of Digits
+
+        /*
+       Console.Write("Enter an integer: ");
+       var num = Convert.ToInt32(Console.ReadLine());
+       var result = Sum.Calculate(num);
+       Console.WriteLine("Sum of digits: " + result);
+       */
+
+        //9. Pattern Printing
+
+        /*Console.Write("Enter number of rows: ");
+       var n = Convert.ToInt32(Console.ReadLine());
+       Pattern.RightTriangle(n);
+       */
+
+        //10. Power of a Number
+
+        /*Console.Write("Enter x: ");
+         var x = Convert.ToInt32(Console.ReadLine());
+         Console.Write("Enter y: ");
+         var y = Convert.ToInt32(Console.ReadLine());
+         Console.WriteLine($"{x}^{y} = {Power.PowerNumber(x, y)}");
+         */
     }
 }
 
