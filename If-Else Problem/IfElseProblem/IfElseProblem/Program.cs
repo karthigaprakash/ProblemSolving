@@ -1,4 +1,5 @@
-﻿using Problem_Solving.Loop;
+﻿using Problem_Solving.ForEachLoop;
+using Problem_Solving.Loop;
 using ProblemSolving.SampleProgram;
 using System.Collections.Generic;
 using System.Diagnostics.Metrics;
@@ -243,6 +244,86 @@ public class Program
          var y = Convert.ToInt32(Console.ReadLine());
          Console.WriteLine($"{x}^{y} = {Power.PowerNumber(x, y)}");
          */
+
+        //ForEachLoop
+
+        //1. Sum of Numbers
+
+
+        /*Console.Write("Enter numbers: ");
+        var nums = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+        Console.WriteLine("Sum = " + SumOfNumber.GetSum(nums));
+        */
+
+        //2. Maximum Element
+
+        /*Console.Write("Enter numbers separated by space: ");
+        var input = Console.ReadLine().Split(' ');
+        var nums = Array.ConvertAll(input, int.Parse);
+        var result = Max.MaxArray(nums);
+        Console.WriteLine("Maximum element is: " + result);
+        */
+
+        //3. Count Even Numbers
+
+        /*Console.Write("Enter numbers separated by space: ");
+        var nums = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+        Console.WriteLine("Count of even numbers: " + Even.CountEven(nums));
+        */
+
+        //4. Print Characters
+
+        /*
+        Console.Write("Enter a string: ");
+        var input = Console.ReadLine();
+        Print.PrintChars(input);
+        */
+
+        //5. Reverse Each Word
+
+        /*Console.Write("Enter a sentence: ");
+       var sentence = Console.ReadLine();
+       Reverses.Words(sentence);
+       */
+
+        //6. Sum of Digits in a String
+
+        /*Console.WriteLine("Enter a string containing letters and digits:");
+        var input = Console.ReadLine();
+        var sum = SumDigit.SumOfDigits(input);
+        Console.WriteLine("The sum of digits in the string is: " + sum);
+        */
+
+        //7. Names Starting with a Specific Letter
+
+        //8. Square of Numbers
+
+        /*List<int> numbers = new List<int>() { 2, 4, 6, 8, 10 };
+       Console.WriteLine("Squares of numbers:");
+       Square.PrintSquares(numbers);
+       */
+
+        //9. Count Words in a Sentence
+
+        /*
+        Console.Write("Enter a sentence: ");
+        var sentence = Console.ReadLine();
+        Count.CountWords(sentence);
+        */
+
+        //10. Average of Array Elements
+
+        /*Console.Write("How many numbers do you want to enter? ");
+        var count = Convert.ToInt32(Console.ReadLine());
+
+        var numbers = new int[count];
+        for (int i = 0; i < count; i++)
+        {
+            Console.Write($"Enter number {i + 1}: ");
+            numbers[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        Average.CalculateAverage(numbers);
+        */
     }
 }
 
