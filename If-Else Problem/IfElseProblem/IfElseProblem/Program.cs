@@ -1,7 +1,7 @@
-﻿using ProblemSolving.SampleProgram;
+﻿using ProblemSolving.Linq;
 using System.Diagnostics.Metrics;
 
-namespace ProblemSolving.SampleProgram;
+namespace ProblemSolving.Linq;
 
 public class Program
 {
@@ -160,6 +160,65 @@ public class Program
         //Console.Write("Enter amount in INR: ");
         //var inr = Convert.ToDouble(Console.ReadLine());
         //Console.WriteLine($"{Currency.Converter(option, inr)}");
+
+        //Linq
+
+        //1.Filter Even Numbers 
+
+        //Console.WriteLine("Enter integers separated by space (Filter Even Numbers):");
+        //Even.FilterEvenNumbers();
+
+        //2.Sort Strings Alphabetically 
+
+        //Console.WriteLine("Enter words separated by space (Sort Alphabetically):");
+        //Sort.Alphabetically();
+
+        //3.Numbers Greater Than N 
+
+        //Console.WriteLine("Enter integers separated by space (Numbers Greater Than N):");
+        //Number.Greater();
+
+        //4.Square of Numbers 
+
+        //Console.WriteLine("Enter integers separated by space (Square of Numbers):");
+        //Square.Numbers();
+
+        //5.Distinct Elements 
+
+        //Console.WriteLine("Enter integers separated by space (Distinct Elements)");
+        //Distinct.Elements();
+
+        //6.Count Words Starting With Vowel 
+
+        //Console.WriteLine("Enter words separated by space (Count Words Starting With Vowel )");
+        //Count.Words();
+
+        //7. Sum of Values Greater Than 10
+
+        //Console.WriteLine("Enter integers separated by space (Numbers Greater Than 10):");
+        //Value.Greater();
+
+        //8.Average Word Length 
+
+        // One kind of mistake in the program (Length)
+        //Console.WriteLine("Enter word separated by space(Average Word Length)");
+        //Average.Word();
+
+        //9.Maximum and Minimum 
+
+        //Console.WriteLine("Enter integers separeted by space (Maximum and Minimum)");
+        //DecimalVal.MaxMin();
+
+        //10.Product of Numbers 
+
+        //Console.WriteLine("Enter integers separeted by space (Product of Numbers)");
+        //Product.Value();
+
+        //11.Select First Letters 
+        // One kind of mistake in the program (Not apply the index value 0 )
+
+        Console.WriteLine("Enter word separated by space (Select First Letters)");
+        Test.Letters();
     }
 }
 
