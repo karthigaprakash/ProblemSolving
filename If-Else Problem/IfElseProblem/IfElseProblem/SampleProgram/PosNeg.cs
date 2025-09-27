@@ -4,17 +4,20 @@ internal class PosNeg
 {
     public static string CheckSign(int number)
     {
-        if (number > 0)
-        {
-            return "Postivie";
-        }
-        else if (number < 0) 
-        {
-            return "Negative";
-        }
-        else
-        {
-            return "Zero";
-        }
+        //if (number > 0)
+        //{
+        //    return "Postivie";
+        //}
+        //else if (number < 0)
+        //{
+        //    return "Negative";
+        //}
+        //else
+        //{
+        //    return "Zero";
+        //}
+
+        return (number > 0) ? "Postive Number" : (number < 0) ? "Negative Number" : "Zero";
+
     }
 }

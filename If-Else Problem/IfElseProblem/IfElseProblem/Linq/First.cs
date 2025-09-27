@@ -2,14 +2,19 @@
 
 internal class First
 {
-    public static void Letters()
+    public static void Letters(List<string> words)
     {
-        var words = Console.ReadLine();
-        var letter = words
-                    .Select(s => s);
-        foreach (var a in letter)
+        var word = Console.ReadLine()
+                            .Split(',')
+                            .Select(w => w.Trim())
+                            .ToList();
+
+        var firstLetters = word
+                            .Select(e => e[0]);
+        Console.WriteLine("First Letters is ");
+        foreach (var letter in firstLetters)
         {
-            Console.WriteLine(a);
+            Console.WriteLine(letter);
         }
     }
 }

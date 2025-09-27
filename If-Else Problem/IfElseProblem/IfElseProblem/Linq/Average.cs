@@ -4,9 +4,10 @@ internal class Average
 {
     public static void Word()
     {
-        var words = Console.ReadLine();
+        var words = Console.ReadLine()
+                    .Split(' ');
         var average = words
-                    .Average(w => w);
+                    .Average(w => w.Length);
         Console.WriteLine("Average word length : " + average);
     }
 }
