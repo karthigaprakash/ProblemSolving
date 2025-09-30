@@ -1,10 +1,8 @@
-﻿
-namespace ProblemSolving.Linq;
+﻿namespace ProblemSolving.Linq;
 
 internal class Student 
 {
-    public static void 
-        PassFail(List<(string Name , int Mark)> students)
+    public static void PassFail(List<(string Name , int Mark)> students)
     {
         var response = students
                             .Select( 
