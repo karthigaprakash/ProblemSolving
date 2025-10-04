@@ -203,16 +203,16 @@ public class Program
 
         //5. Reverse a String
 
-        /*Console.Write("Enter a string: ");
+        Console.Write("Enter a string: ");
         var str = Console.ReadLine();
         Console.WriteLine($"{Reverse.Letter(str)}");
-        */
+        
 
         //6. Prime Numbers up to N
 
-       //Console.Write("Enter n: ");
-       //var n = Convert.ToInt32(Console.ReadLine());
-       //Prime.ShowPrimes(n);
+        //Console.Write("Enter n: ");
+        //var n = Convert.ToInt32(Console.ReadLine());
+        //Prime.ShowPrimes(n);
 
         //7.Fibonacci Series(First N Terms)
 
@@ -234,10 +234,10 @@ public class Program
 
         //9. Pattern Printing
 
-       //Console.Write("Enter number of rows: ");
-       //var n = Convert.ToInt32(Console.ReadLine());
-       //Pattern.RightTriangle(n);
-       
+        //Console.Write("Enter number of rows: ");
+        //var n = Convert.ToInt32(Console.ReadLine());
+        //Pattern.RightTriangle(n);
+
 
         //10. Power of a Number
 
@@ -450,7 +450,7 @@ public class Program
         //Console.WriteLine("Enter the number of student list ?: ");
         //var n = Convert.ToInt32(Console.ReadLine());
 
-        //for(int i =0; i < n; i++)
+        //for (int i = 0; i < n; i++)
         //{
         //    Console.WriteLine("Enter the student Name:");
         //    var studentName = Console.ReadLine();
@@ -536,6 +536,90 @@ public class Program
         //var z = Convert.ToInt32(Console.ReadLine());
 
         //Formula.GetThreeNumber(x,y,z);
+
+        //5. Compare Equality of Three Number
+
+        //Console.WriteLine("Enter First Number :");
+        //var x = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Enter Second Number :");
+        //var y = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Enter Third Number :");
+        //var z = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine($"{Compare.GetThreeNumbers(x, y, z)}");
+
+
+        //6. Student Linq method
+        //var students = new List<(string Name, int Mark)>();
+        //Console.WriteLine("Enter the number of list of students : ");
+        //var n = Convert.ToInt32(Console.ReadLine());
+
+        //for (int i = 0; i < n; i++)
+        //{
+        //    Console.WriteLine("Enter the Name:");
+        //    var name = Console.ReadLine();
+        //    Console.WriteLine("Enter the Mark");
+        //    var mark = Convert.ToInt32(Console.ReadLine());
+        //    students.Add((name, mark));
+        //}
+        //Question.Student.StudentAnalye(students);
+
+        //7. Employee 
+        //(show the Id , Name with salary)
+
+        //var employees = new List<(int Id, string Name, string Department, decimal Salary)>();
+
+        //Console.WriteLine("Enter the number of list for Employees : ");
+        //var e = Convert.ToInt32(Console.ReadLine());
+
+        //for (int i = 0; i < e; i++)
+        //{
+        //    Console.WriteLine("Enter the Id : ");
+        //    var id = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("Enter the Name : ");
+        //    var name = Console.ReadLine();
+        //    Console.WriteLine("Enter the Department : ");
+        //    var department = Console.ReadLine();
+        //    Console.WriteLine("Enter the Salary : ");
+        //    var salary = Convert.ToDecimal(Console.ReadLine());
+        //    employees.Add((id, name, department, salary));
+        //}
+        //Question.Employee.Highest(employees);
+
+        //8 Student top 2 marks
+
+        //var student = new List<(string Name, int Mark)>();
+
+        //Console.WriteLine("Enter the number of list for Employees : ");
+        //var e = Convert.ToInt32(Console.ReadLine());
+
+        //for (int i = 0; i < e; i++)
+        //{
+        //    Console.WriteLine("Enter the Name : ");
+        //    var name = Console.ReadLine();
+        //    Console.WriteLine("Enter the Mark : ");
+        //    var mark = Convert.ToInt32(Console.ReadLine());
+        //    student.Add((name, mark));
+        //}
+        //TopStudents.HighestMark(student);
+
+        //9 Employee Name select the letter 
+
+        //10 test
+
+        //Console.WriteLine($"School Name : {Question.Student.School()}" );
+
+        //var stud = "jhon";
+        //var student = new Question.Student(stud);
+        //var result = student.GetStudent();
+        //Console.WriteLine(result);
+
+        //var stud = "jhon";
+        //var student = new Question.Student();
+        //student.StuName = stud;
+        //var result = student.GetStudent();
+        //Console.WriteLine(result);
+
+
     }
 }
 
